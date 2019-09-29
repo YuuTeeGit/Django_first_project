@@ -3,6 +3,7 @@ from django.http import HttpResponse
 
 # Create your views here.
 
+
 def index(request):
     #return HttpResponse('Hello World!!')
     my_dict = {'insert_me':'Hello I am from first_app/views.py!'}
